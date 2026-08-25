@@ -19,7 +19,7 @@ What are the disadvantages compared to 2.3?
 * The implementation of the old FacesEL (`javax.faces.el.*`) also has been completely removed.  
 
 ## Requirements
-* Java 1.8
+* Java 11
 * Servlet 3.0 (4.0 will enable JSF to serve resources via HTTP/2 push)
 * EL 2.2
 * CDI 1.2

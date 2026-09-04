@@ -215,7 +215,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_CLASS | 2.2.0 |  |  | Sets the random class to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_PROVIDER | 2.2.0 |  |  | Sets the random provider to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_ALGORITM | 2.2.0 | SHA1PRNG |  | Sets the random algorithm to initialize the secure random id generator |
-| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE | 2.2.8, 2.1.18, 2.3.6 | false | true, false | Add autocomplete="off" to the view state hidden field. Changed to false in 2.3.11 |
+| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE | 2.2.8, 2.1.18, 2.3.6 | true | true, false, one-time-code | Add autocomplete attribute to the view state hidden field. true renders autocomplete="off", false disables the attribute. one-time-code added in 2.3.12 (only supported in newer browsers)|
 | o.a.m.RANDOM_KEY_IN_WEBSOCKET_SESSION_TOKEN | 2.2.0 | secureRandom | secureRandom, random | Defines how to generate the csrf session token. As of version 2.3.8 the default switched from `random` to `secureRandom`. |
 
 ### Deprecated
